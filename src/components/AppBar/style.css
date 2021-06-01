@@ -1,0 +1,20 @@
+.appbar {
+	width: calc(100% - rem);
+	height: 50px;
+	background-color: #735ac2;
+	padding: 0.5rem;
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	color: #fff;
+	font-size: 16px;
+}
+
+.subtitle {
+	color: #999;
+	font-size: 14px;
+}
