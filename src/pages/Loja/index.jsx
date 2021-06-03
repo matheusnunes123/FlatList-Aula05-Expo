@@ -2,15 +2,15 @@ import React from "react";
 import { View, Text, Image,TouchableOpacity, ScrollView, FlatList } from "react-native";
 import Produto from "components/Produto"
 import DATA from "utils/DATA"
-import { Appbar } from "components/AppBar";
+import AppBar from "components/AppBar2"
 import { style } from "./style"
 //Componente Produtos
 
 const Loja = () => {
     return(
-        <ScrollView>
+        <ScrollView style={style.tela}>
             <View>
-                <Appbar></Appbar>
+                <AppBar></AppBar>
                 <Text style={style.title}>Loja</Text>
             </View>
             <View>
